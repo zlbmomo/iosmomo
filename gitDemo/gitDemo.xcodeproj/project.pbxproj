@@ -12,6 +12,7 @@
 		BC6025991D90D0500009F4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6025971D90D0500009F4D3 /* Main.storyboard */; };
 		BC60259B1D90D0500009F4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC60259A1D90D0500009F4D3 /* Assets.xcassets */; };
 		BC60259E1D90D0500009F4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC60259C1D90D0500009F4D3 /* LaunchScreen.storyboard */; };
+		BC6025A61D90D55E0009F4D3 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6025A51D90D55E0009F4D3 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC60259A1D90D0500009F4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC60259D1D90D0500009F4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC60259F1D90D0500009F4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6025A51D90D55E0009F4D3 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BC6025871D90D04F0009F4D3 = {
 			isa = PBXGroup;
 			children = (
+				BC6025A51D90D55E0009F4D3 /* NewViewController.swift */,
 				BC6025921D90D0500009F4D3 /* gitDemo */,
 				BC6025911D90D0500009F4D3 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6025A61D90D55E0009F4D3 /* NewViewController.swift in Sources */,
 				BC6025961D90D0500009F4D3 /* ViewController.swift in Sources */,
 				BC6025941D90D0500009F4D3 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				BC6025A41D90D0500009F4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
